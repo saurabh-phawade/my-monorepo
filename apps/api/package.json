@@ -1,11 +1,13 @@
 {
   "name": "api",
   "version": "1.0.0",
+  "type": "module",
   "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon --watch src --exec tsx src/server.ts",
     "build": "tsc -p tsconfig.json",
+    "start": "node dist/server.js",
     "test": "vitest --config vitest.config.ts"
   },
   "keywords": [],
