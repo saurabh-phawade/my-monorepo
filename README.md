@@ -105,11 +105,12 @@ Response:
 
 ## Turborepo Commands
 
-| Command      | Description                |
-| ------------ | -------------------------- |
-| `pnpm dev`   | Start all apps in parallel |
-| `pnpm build` | Build all apps & packages  |
-| `pnpm test`  | Run Vitest across monorepo |
+| Command                 | Description                |
+| ----------------------- | -------------------------- |
+| `pnpm dev`              | Start all apps in parallel |
+| `pnpm build`            | Build all apps & packages  |
+| `pnpm test`             | Run Vitest across monorepo |
+| `pnpm turbo run start`  | Start all apps in parallel |
 
 ## Why this architecture?
 
